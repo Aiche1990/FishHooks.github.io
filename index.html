@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Fish Hooks</title>
+</head>
+<body onload="activeHome()">
+    <header id="home">
+        <nav>
+            <div class="logo"></div>
+
+            <div class="nav-middle" onclick="toggleMobileNav()">
+                <a href="#home" onclick="activeHome()">Home</a>
+                <a href="#blog" onclick="activeBlog()">Blog</a>
+                <a href="#explore" onclick="activeExplore()">Forum</a>
+                <a href="#contact" onclick="activeContact()">Contact</a>
+                <span></span>
+            </div>
+
+            <div class="nav-side">
+                <div class="icon-insta"></div>
+                <div class="icon-fb"></div>
+                <div class="icon-twitter"></div> 
+            </div>
+
+            <div class="mobile-nav">
+                <a href="home" class="active">Home</a>
+                <a href="#blog">Blog</a>
+                <a href="#explore">Forum</a>
+                <a href="#contact">Contact</a>
+                <div class="social-media">
+                    <div class="icon-insta"></div>
+                    <div class="icon-fb"></div>
+                    <div class="icon-twitter"></div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1>Fish Hooks</h1>
+            <p class="kicker">Fishing Forum & Blog</p>
+            <button class="btn-padded">Explore</button>
+        </div>
+        
+    </header>
+    
+    <section id="explore">
+        <div class="container">
+            <div class="card">
+                <h2>Explore the Forum</h2>
+                <p>Get to know other people by visiting our forum where you can ask any questions about fishing or share any stories you have experienced. we welcome everyone to join</p>
+                <button class="btn-padded">Join Now</button>
+            </div>
+            <div class="image-slider-1">
+                <div class="image">
+                    <div class="numbering" onclick="nextImage()">01</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <div class="card">
+                <h2>Read Our Blog</h2>
+                <p>We have many articles posted by our community that covers a vast range of topics, enough to make you interested and curious about many fishing experiences we had.</p>
+                <button class="btn-padded">Visit Blog</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="image">
+                <div class="card">
+                    <h2>Keep in Touch</h2>
+                    <p>Get the latest news from us about the hottest topics and trends in fishing, we won't spam you with emails we promise. Instead what we want is, for you to be fully aware of the amazing community and experiences in fishing</p>
+                </div>
+            </div>
+            <div class="input-grp">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <textarea class="message-box" placeholder="Message"></textarea>
+                <button class="btn-padded">submit</button>
+            </div>
+        </div>
+
+        <div class="image-gallery">
+            <div class="image-1">
+                <div class="overlay"><a href="#">See More</a></div>
+            </div>
+            <div class="image-2">
+                <div class="overlay"><a href="#">See More</a></div>
+            </div>
+            <div class="image-3">
+                <div class="overlay"><a href="#">See More</a></div>
+            </div>
+            <div class="image-4">
+                <div class="overlay"><a href="#">See More</a></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <h5>Find us On</h5>
+            <div class="icon-grp">
+                <div class="icon-insta"></div>
+                <div class="icon-fb"></div>
+                <div class="icon-twitter"></div>
+            </div>
+            <h5>FH_fishingforum</h5>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="copyright">
+                <p>Copyright © 2018</p>
+                <p>Made by <a href="https://aiche1990.github.io/">Tyrone Valmores</a></p>
+            </div>
+            <div class="links">
+                <a href="#">FAQ</a>
+                <a href="#">Community</a>
+                <a href="#">Site Rules</a>
+            </div>
+            <div class="contacts">
+                <h5>Tel: 861-225</h5>
+                <h5>CA, Northpark Avenue West 2gb Building 2nd Flr</h5>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+</html>
